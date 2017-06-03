@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "* * * * * $(pwd)/main.sh" | crontab -
+echo "30 * * * * $(pwd)/main.sh" | crontab -
